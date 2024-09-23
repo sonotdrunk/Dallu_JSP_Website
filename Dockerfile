@@ -5,4 +5,4 @@ WORKDIR /app
 # Copy the compiled class files from the build folder into the container 
 COPY build/ . 
 # Specify the command to run your application 
-CMD ["java", "-cp", ".", "dalle.MyServlet"] 
+CMD ["java", "-cp", ".", "dalle.myServlet"] 
